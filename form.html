@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        .box {
+            width:400px;
+            border:2px solid black;
+            padding:20px;
+            margin:50px;
+            align:center;
+        }
+    h2 {
+        text-align : center;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h2 align="center">Job registration form</h2><br>
+    <h4>Registration Steps</h4>
+<ol>
+    <li>Enter student details</li>
+    <li>Select course</li>
+    <li>Submit the form</li>
+</ol>
+
+    <form>
+        <label>Student Name : </label>
+        <input type="text"placeholder="Enter your name"><br><br>
+
+        <label>Roll Numbeer : </label>
+        <input type="text"placeholder="enter roll number"><br><br>
+
+        <label>Email : </label>
+        <input type="email"placeholder="enter email"><br><br>
+        <label>password : </label>
+        <input type="text"placeholder="enter password"><br><br>
+        <label>Gender:</label><br><br>
+        <input type="radio"name="gender">Male
+        <input type="radio"name="gender">female
+        <input type="radio"name="gender">other
+        <br><br>
+        <label>address : </label><br>
+        <textarea rows="4"cols="30"></textarea><br><br>
+        <label>course : </label>
+        <select>
+            <option>select course</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>B.TECH</option>
+            <option>M.TECH</option>
+        </select>
+        <br><br><br>
+        <label>Experienced : </label>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select><br><br>
+        <label>about yourself : </label><br>
+        <textarea rows="5" cols="40"></textarea><br><br>
+        <input type="submit" value="register">
+        <input type="reset" value="clear">
+    </form>
+    <br>
+    <a href="login.html">Already registered? Login here</a>
+    </div>
+</body>
+</html>
